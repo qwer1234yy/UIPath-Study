@@ -1,0 +1,10 @@
+1.add a repository in remote server(github)
+2.create a folder in your local computer as a local repository where you want to put your local repository
+3.clone remote repository to local folder: 
+cmd: 
+change directory to local folder
+git clone https://github.com/qwer1234yy/UIPath-study.git
+git add .
+git add "some file"
+git commit -m "commit message"
+git push origin master
